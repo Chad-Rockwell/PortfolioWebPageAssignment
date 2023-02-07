@@ -1,45 +1,46 @@
+/* add local font  */
 @font-face {
   src: url(fonts/the_wild_breath_of_zelda/Zelda.otf);
   font-family: zelda;
 }
-
+/* style whole body of page */
 body {
   background-color: rgb(45, 45, 45);
   color: white;
   text-align: center;
 }
-
+/* style the header */
 header {
   margin: 10px;
   padding: 50px;
   font-family: "Open Sans", sans-serif;
 }
-
+/* h1 element 'Chad Rockwell' */
 h1 {
   font-family: "League Spartan", sans-serif;
   font-size: 100px;
   margin: 10px;
 }
-
+/* set image size and style */
 img {
   border-radius: 50px;
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2),
     0px 6px 20px 0px rgba(0, 0, 0, 0.19);
 }
-
+/* style 'hello' */
 .greeting {
   font-size: 40px;
   margin: 20px;
 }
-
+/* set font family for page content */
 article div {
   font-family: "Open Sans", sans-serif;
 }
-
+/* align list content */
 li {
   text-align: left;
 }
-
+/* style my goal list */
 .goal {
   font-size: 20px;
   padding: 30px;
@@ -47,9 +48,9 @@ li {
   border-radius: 20px;
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2),
     0px 6px 20px 0px rgba(0, 0, 0, 0.19);
-    width: 400px;
+  width: 400px;
 }
-
+/* adjusting flex box for ul items */
 ul {
   display: flex;
   justify-content: space-evenly;
@@ -58,17 +59,17 @@ ul {
   margin: auto;
   gap: 10px;
 }
-
+/* adding hover action to goals */
 .goal:hover {
   background-color: rgb(22, 22, 22);
 }
-
+/* adjusting style for sub-list */
 ol {
   padding: 20px;
   list-style: disc;
   font-size: 15px;
 }
-
+/* style about me section */
 .about-me {
   background-color: rgb(33, 33, 33);
   height: auto;
@@ -79,30 +80,30 @@ ol {
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2),
     0px 6px 20px 0px rgba(0, 0, 0, 0.19);
 }
-
+/* style header for about me section */
 .about-me h2 {
   font-size: 50px;
   margin: auto;
 }
-
+/* style a elements */
 a {
   text-decoration: none;
   color: whitesmoke;
   font-style: italic;
   font-weight: 900;
 }
-
+/* hover styling for a elements */
 a:hover {
   color: yellow;
 }
-
+/* personalized font for game reference a element */
 .zelda {
   font-family: zelda, sans-serif;
   font-style: normal;
   font-weight: 200;
   font-size: 25px;
 }
-
+/* add margin to footer */
 footer {
   margin: auto;
 }
